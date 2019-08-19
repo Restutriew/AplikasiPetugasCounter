@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Aplikasi Petugas Counter</string>
+    <string name="title_activity_inputdata">inputdata</string>
+
+    <string name="inputdata_nama_counter">Nama Counter</string>
+    <string name="inputdata_id">ID</string>
+    <string name="inputdata_pemilik">Pemilik</string>
+    <string name="inputdata_alamat">Alamat</string>
+    <string name="inputdata_no_hp">Nomor HP</string>
+
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="title_activity_pilihan">pilihan</string>
+    <string name="title_activity_inputdatacounterbaru">inputdatacounterbaru</string>
+
+
+    <string name="input_kios_id_kios">ID KIOS</string>
+    <string name="input_kios_id_sales">ID SALES</string>
+    <string name="input_kios_username">Username</string>
+    <string name="input_kios_password">Password</string>
+    <string name="input_kios_nama_kios">Nama Kios</string>
+    <string name="input_kios_pemilik">Pemilik</string>
+    <string name="input_kios_no_ktp">No. KTP</string>
+    <string name="input_kios_no_hp">No. HP</string>
+    <string name="input_kios_email">Email</string>
+    <string name="input_kios_alamat">Alamat</string>
+    <string name="input_kios_rt">RT</string>
+    <string name="input_kios_rw">RW</string>
+    <string name="input_kios_desa">Desa</string>
+    <string name="input_kios_kecamatan">Kecamatan</string>
+    <string name="input_kios_kabupaten">Kabupaten</string>
+    <string name="input_kios_provinsi">Provinsi</string>
+    <string name="input_kios_lat_kios">Latitude</string>
+    <string name="input_kios_long_kios">Longitude</string>
+    <string name="input_kios_token">Token</string>
+    <string name="input_kios_status">Status</string>
+
+</resources>

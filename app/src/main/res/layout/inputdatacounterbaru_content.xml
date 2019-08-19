@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".inputdatacounterbaru.inputdatacounterbaru"
+    tools:showIn="@layout/inputdatacounterbaru_activity"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/id_kios"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_id_kios"
+                android:inputType="none"
+                android:layout_marginBottom="20dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_id_sales"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_username"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_pemilik"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_no_ktp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_no_hp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_email"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_alamat"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_rt"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_rw"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_desa"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_kecamatan"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_kabupaten"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_provinsi"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_kios_status"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input"
+            android:textColor="@color/colorPrimary"/>
+
+
+
+
+
+
+
+</LinearLayout>
